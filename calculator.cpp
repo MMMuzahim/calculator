@@ -210,9 +210,9 @@ string calculator(string s)
     return result;
 }
 
-int main() {
+/*int main() {
     string s;
     getline(cin, s);
     cout << calculator(s) << endl;
     return 0;
-}
+}*/
