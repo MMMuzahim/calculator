@@ -45,6 +45,10 @@ TEST(Test_10, Subtest_10) {
     ASSERT_EQ(calculator("(2 / (-3)"), "некорректный ввод");
 }
 
+TEST(Test_11, Subtest_11) {
+    ASSERT_EQ(calculator("-(2 * 3)"), "-6");
+}
+
 int main(int argc, char **argv)
 {
     testing::InitGoogleTest(&argc, argv);
